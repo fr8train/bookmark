@@ -1,6 +1,7 @@
 @extends('templates.minimal')
 
 @section('content')
+<div class="container">
     <div class="row" id="main">
         <div class="hidden-xs col-sm-6 col-sm-offset-3">
             <h1 style="margin-bottom:0px;"><i class="glyphicon glyphicon-bookmark" style="font-size: 38px;"></i>bookmark
@@ -40,9 +41,11 @@
             </div>
         </div>
     </div>
+</div>
 @endsection
 
 @section('scripts')
+<script type="text/javascript">
     $(document).ready(function(){
         rePosition();
 
@@ -57,4 +60,5 @@
             _main.css('margin-top',((h/2)-(hMain/2)) + 'px');
         }
     });
+</script>
 @endsection

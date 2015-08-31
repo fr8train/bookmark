@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',function(){
+    if (Auth::check()) {
+        // TO DO HOMEPAGE
+    } else {
+        return Redirect::to('auth/login');
+    }
 });
+
+Route::controllers([
+    'auth' => 'Auth\AuthController'
+]);

@@ -7,6 +7,7 @@ use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
@@ -61,5 +62,22 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
+    }
+
+    /**
+     * Returns GET /auth/login
+     *
+     * @return \Illuminate\View\View
+     */
+    public function getLogin() {
+        return view('auth.login');
+    }
+
+    public function postLogin(Request $request) {
+        return var_dump($request->all());
+    }
+
+    public function postRegister(Request $request) {
+        return var_dump($request->all());
     }
 }

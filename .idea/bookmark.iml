@@ -34,6 +34,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/querypath/querypath" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/environment" />
@@ -98,6 +99,7 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
           <root url="file://$MODULE_DIR$/vendor/classpreloader/classpreloader" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/vendor/querypath/querypath" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
           <root url="file://$MODULE_DIR$/vendor/jeremeamia/SuperClosure" />
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />
@@ -155,6 +157,7 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
           <root url="file://$MODULE_DIR$/vendor/classpreloader/classpreloader" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/vendor/querypath/querypath" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
           <root url="file://$MODULE_DIR$/vendor/jeremeamia/SuperClosure" />
           <root url="file://$MODULE_DIR$/vendor/jakub-onderka/php-console-highlighter" />

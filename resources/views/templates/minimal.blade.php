@@ -26,9 +26,7 @@
 </head>
 <body>
 
-<div class="container">
-    @yield('content')
-</div>
+@yield('content')
 
 <!-- Bootstrap -->
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -39,9 +37,12 @@
 <script src="{{ asset('js/jquery.fs.selecter.min.js') }}"></script>
 <script src="{{ asset('js/jquery.fs.stepper.min.js') }}"></script>
 
+<!-- KnockoutJS -->
+<script src="{{ asset('js/knockout-3.3.0.js') }}"></script>
+<script src="{{ asset('js/knockout-3.3.0.debug.js') }}"></script>
+
 <!-- Page based scripts -->
-<script type="text/javascript">
-    @yield('scripts')
-</script>
+@yield('scripts')
+
 </body>
 </html>
